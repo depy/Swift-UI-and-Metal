@@ -1,17 +1,23 @@
-//
-//  SwiftMetal1App.swift
-//  SwiftMetal1
-//
-//  Created by Matjaz Muhic on 16/12/2021.
-//
-
 import SwiftUI
+import Combine
+
+class RenderData: ObservableObject {
+    @Published var bgColor = [Double]([0.0, 0.0, 0.0])
+}
+
+var renderData = RenderData()
 
 @main
 struct SwiftMetal1App: App {
+    var controlsView = ControlsView()
+    var metalView = MetalView()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HStack {
+                controlsView.environmentObject(renderData)
+                metalView.environmentObject(renderData)
+            }
         }
     }
 }

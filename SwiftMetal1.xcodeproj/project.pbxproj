@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F677BE98276B688000599609 /* SwiftMetal1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677BE97276B688000599609 /* SwiftMetal1App.swift */; };
-		F677BE9A276B688000599609 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677BE99276B688000599609 /* ContentView.swift */; };
+		F677BE9A276B688000599609 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677BE99276B688000599609 /* MetalView.swift */; };
 		F677BE9C276B688200599609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F677BE9B276B688200599609 /* Assets.xcassets */; };
 		F677BE9F276B688200599609 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F677BE9E276B688200599609 /* Preview Assets.xcassets */; };
+		F677BEAD276B827300599609 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677BEAC276B827300599609 /* ControlsView.swift */; };
+		F677BEAF276B8D0000599609 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F677BEAE276B8D0000599609 /* Shader.metal */; };
+		F677BEB1276B905300599609 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677BEB0276B905300599609 /* Renderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F677BE94276B688000599609 /* SwiftMetal1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMetal1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F677BE97276B688000599609 /* SwiftMetal1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMetal1App.swift; sourceTree = "<group>"; };
-		F677BE99276B688000599609 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F677BE99276B688000599609 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		F677BE9B276B688200599609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F677BE9E276B688200599609 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F677BEA0276B688200599609 /* SwiftMetal1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftMetal1.entitlements; sourceTree = "<group>"; };
+		F677BEAC276B827300599609 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		F677BEAE276B8D0000599609 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		F677BEB0276B905300599609 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				F677BE97276B688000599609 /* SwiftMetal1App.swift */,
-				F677BE99276B688000599609 /* ContentView.swift */,
+				F677BEAC276B827300599609 /* ControlsView.swift */,
+				F677BE99276B688000599609 /* MetalView.swift */,
+				F677BEB0276B905300599609 /* Renderer.swift */,
+				F677BEAE276B8D0000599609 /* Shader.metal */,
 				F677BE9B276B688200599609 /* Assets.xcassets */,
 				F677BEA0276B688200599609 /* SwiftMetal1.entitlements */,
 				F677BE9D276B688200599609 /* Preview Content */,
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F677BE9A276B688000599609 /* ContentView.swift in Sources */,
+				F677BEAF276B8D0000599609 /* Shader.metal in Sources */,
+				F677BE9A276B688000599609 /* MetalView.swift in Sources */,
+				F677BEAD276B827300599609 /* ControlsView.swift in Sources */,
+				F677BEB1276B905300599609 /* Renderer.swift in Sources */,
 				F677BE98276B688000599609 /* SwiftMetal1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
