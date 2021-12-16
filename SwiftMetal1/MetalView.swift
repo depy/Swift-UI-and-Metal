@@ -33,8 +33,6 @@ struct MetalView {
         mtkView.enableSetNeedsDisplay = true
         mtkView.isPaused = false
         
-        print("renderData \(renderData.bgColor)")
-        
         return mtkView
     }
 }

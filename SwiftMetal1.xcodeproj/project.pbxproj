@@ -14,6 +14,7 @@
 		F677BEAD276B827300599609 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677BEAC276B827300599609 /* ControlsView.swift */; };
 		F677BEAF276B8D0000599609 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F677BEAE276B8D0000599609 /* Shader.metal */; };
 		F677BEB1276B905300599609 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677BEB0276B905300599609 /* Renderer.swift */; };
+		F677BEB3276BB9F400599609 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = F677BEB2276BB9F400599609 /* Types.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F677BEAC276B827300599609 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 		F677BEAE276B8D0000599609 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 		F677BEB0276B905300599609 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		F677BEB2276BB9F400599609 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F677BEAC276B827300599609 /* ControlsView.swift */,
 				F677BE99276B688000599609 /* MetalView.swift */,
 				F677BEB0276B905300599609 /* Renderer.swift */,
+				F677BEB2276BB9F400599609 /* Types.swift */,
 				F677BEAE276B8D0000599609 /* Shader.metal */,
 				F677BE9B276B688200599609 /* Assets.xcassets */,
 				F677BEA0276B688200599609 /* SwiftMetal1.entitlements */,
@@ -151,6 +154,7 @@
 				F677BEAF276B8D0000599609 /* Shader.metal in Sources */,
 				F677BE9A276B688000599609 /* MetalView.swift in Sources */,
 				F677BEAD276B827300599609 /* ControlsView.swift in Sources */,
+				F677BEB3276BB9F400599609 /* Types.swift in Sources */,
 				F677BEB1276B905300599609 /* Renderer.swift in Sources */,
 				F677BE98276B688000599609 /* SwiftMetal1App.swift in Sources */,
 			);

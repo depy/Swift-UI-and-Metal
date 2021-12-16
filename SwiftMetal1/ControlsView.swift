@@ -33,7 +33,7 @@ struct ControlsView: View {
                 )
             }
             HStack {
-                Text("Blue")
+                Text("Blue ")
                 Slider(
                     value: Binding(get: {
                         self.blue
